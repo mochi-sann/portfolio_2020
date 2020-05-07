@@ -5,6 +5,8 @@ const link2 = document.getElementById('link2');
 const link3 = document.getElementById('link3');
 const link4 = document.getElementById('link4');
 const link5 = document.getElementById('link5');
+const link6 = document.getElementById('link6');
+const link7 = document.getElementById('link7');
 //ON
 twitter.addEventListener('mouseenter', () => {
 　　document.getElementById("text").innerHTML="Twitter"
@@ -37,7 +39,7 @@ link1.addEventListener('mouseleave', () => {
 
 //ON
 link2.addEventListener('mouseenter', () => {
-  　　document.getElementById("text").innerHTML="リンク2"
+  　　document.getElementById("text").innerHTML="Profile"
 }, false);
   
 //OFF
@@ -47,7 +49,7 @@ link2.addEventListener('mouseleave', () => {
 
 //ON
 link3.addEventListener('mouseenter', () => {
-  　　document.getElementById("text").innerHTML="リンク3"
+  　　document.getElementById("text").innerHTML="Works"
 }, false);
   
 //OFF
@@ -57,7 +59,7 @@ link3.addEventListener('mouseleave', () => {
 
 //ON
 link4.addEventListener('mouseenter', () => {
-  　　document.getElementById("text").innerHTML="リンク4"
+  　　document.getElementById("text").innerHTML="Skyll"
 }, false);
   
 //OFF
@@ -74,6 +76,3 @@ link5.addEventListener('mouseenter', () => {
 link5.addEventListener('mouseleave', () => {
     　　document.getElementById("text").innerHTML=""
 }, false);
-function page(pass){
-  window.location.href = pass;
-}
