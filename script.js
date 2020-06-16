@@ -59,7 +59,7 @@ link3.addEventListener('mouseleave', () => {
 
 //ON
 link4.addEventListener('mouseenter', () => {
-  　　document.getElementById("text").innerHTML="Skyll"
+  　　document.getElementById("text").innerHTML="Skill"
 }, false);
   
 //OFF
