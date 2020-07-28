@@ -77,7 +77,7 @@ header {
     display: block;
 }
 .scroll_item:hover{
-    outline: 10px solid #eeffff;
+    outline: 10px solid #eeeeee;
 }
 .black_text{
     color:#333;
