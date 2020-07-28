@@ -39,7 +39,7 @@ link1.addEventListener('mouseleave', () => {
 
 //ON
 link2.addEventListener('mouseenter', () => {
-  　　document.getElementById("text").innerHTML="Profile"
+  　　document.getElementById("text").innerHTML="PROFILE"
 }, false);
   
 //OFF
@@ -49,7 +49,7 @@ link2.addEventListener('mouseleave', () => {
 
 //ON
 link3.addEventListener('mouseenter', () => {
-  　　document.getElementById("text").innerHTML="Works"
+  　　document.getElementById("text").innerHTML="WORKS"
 }, false);
   
 //OFF
@@ -59,7 +59,7 @@ link3.addEventListener('mouseleave', () => {
 
 //ON
 link4.addEventListener('mouseenter', () => {
-  　　document.getElementById("text").innerHTML="Skill"
+  　　document.getElementById("text").innerHTML="SKILL"
 }, false);
   
 //OFF
@@ -69,7 +69,7 @@ link4.addEventListener('mouseleave', () => {
 
 //ON
 link5.addEventListener('mouseenter', () => {
-  　　document.getElementById("text").innerHTML="リンク5"
+  　　document.getElementById("text").innerHTML="HOBBY"
 }, false);
   
 //OFF

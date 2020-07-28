@@ -8,6 +8,23 @@ body{
     margin:0;
     text-align: center;
 }
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url('poster.jpg') no-repeat;
+    background-size: cover;
+}
+#allmedia{
+    position: relative;
+    z-index: 2; 
+    display: flex;
+}
 header {
     position:fixed;
     text-align:left;
@@ -54,13 +71,13 @@ header {
     background: url(img/aaa.jpg) center / cover;
 }
 #link5{
-    background: url(img/background.jpg) center / cover;
+    background: url(img/IMG_5390.jpeg) center / cover;
 }
 .scroll_item_inr {
     display: block;
 }
 .scroll_item:hover{
-    outline: 10px solid #094a8c;
+    outline: 10px solid #99ffff;
 }
 .black_text{
     color:#333;
@@ -84,13 +101,13 @@ a {
     position:fixed;
     left:32px;
     padding:32px;
-    color:#094a8c;
+    color:#99ffff ;
 }
 #text_logo{
     position:fixed;
     right:32px;
     padding:32px;
-    color:#333333;
+    color:#cccccc;
 }
 footer{
     width:250px;
@@ -99,7 +116,7 @@ footer{
     bottom:0;
 }
 .mainbun{
-    color:#094a8c;
+    color:#305097 ;
     padding-bottom:10vh;
 }
 .normal{
