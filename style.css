@@ -77,7 +77,7 @@ header {
     display: block;
 }
 .scroll_item:hover{
-    outline: 10px solid #99ffff;
+    outline: 10px solid #eeffff;
 }
 .black_text{
     color:#333;
@@ -98,10 +98,10 @@ a {
     text-decoration: none;
 }
 #text{
+    font-size:200%;
     position:fixed;
     left:32px;
-    padding:32px;
-    color:#99ffff ;
+    color:#eeffff ;
 }
 #text_logo{
     position:fixed;
