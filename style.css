@@ -8,7 +8,7 @@ body{
     margin:0;
     text-align: center;
 }
-video {
+img#imagine{
     position: fixed;
     right: 0;
     bottom: 0;
