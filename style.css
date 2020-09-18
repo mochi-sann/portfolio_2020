@@ -9,7 +9,7 @@ body{
     text-align: center;
 }
 img#imagine{
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
