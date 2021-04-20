@@ -24,6 +24,8 @@ img#imagine{
     position: relative;
     z-index: 2; 
     display: flex;
+    width:150%;
+    background-color:rgba(255,255,255,0.8);
 }
 header {
     position:fixed;
@@ -101,13 +103,13 @@ a {
     font-size:200%;
     position:fixed;
     left:32px;
-    color:#eeffff ;
+    color:#116666 ;
 }
 #text_logo{
     position:fixed;
     right:32px;
     padding:32px;
-    color:#cccccc;
+    color:#333333;
 }
 footer{
     width:250px;
